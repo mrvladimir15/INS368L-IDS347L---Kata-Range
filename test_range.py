@@ -10,3 +10,15 @@ class TestRange1():
     
     def test_t1(self):
         assert Range.operator1 == "["
+
+class process():
+    def __init__(self, operator1, number1,operator2,number2):
+        self.first = number1
+        self.second = number2
+    def display (self)
+    print ("first number = " + str(self.first))
+    print ("first number = " + str(self.second))
+    print("additional of two numbers = "+ str(self.answer))
+
+    def calculate(self):
+        self.answer = self.first + self.second
